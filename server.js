@@ -58,5 +58,7 @@ require("./app/routing/html-routes.js")(app);
 // ==============================================================================
 
 app.listen(PORT, function() {
+
+  // #todo this comment sucks!
   console.log("Server is running! Let's get coding!: " + PORT);
 });
