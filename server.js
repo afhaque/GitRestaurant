@@ -59,6 +59,7 @@ require("./app/routing/html-routes.js")(app);
 
 app.listen(PORT, function() {
 
+  // This is a listener
   console.log("Server is running na na na na: " + PORT);
 });
 
